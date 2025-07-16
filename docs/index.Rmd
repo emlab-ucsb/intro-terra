@@ -561,7 +561,7 @@ sst_cropped_masked
 sst_cropped_masked_projected
 ```
 
-We can see that the projected raster is in the Australian Albers crs, and the extent, resolution, and dimensions have all changed. This crs has units of meters, which means the size of each raser cells is `r res(sst_cropped_masked_projected)[1]`m x `r res(sst_cropped_masked_projected)[2]`m. 
+We can see that the projected raster is in the Australian Albers crs, and the extent, resolution, and dimensions have all changed. This crs has units of meters, which means the size of each raster cell is `r res(sst_cropped_masked_projected)[1]`m x `r res(sst_cropped_masked_projected)[2]`m. 
 
 Lets compare how the two rasters now look.
 
